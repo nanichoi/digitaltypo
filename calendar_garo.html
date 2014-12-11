@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <style>
+  /*div {border:1px solid red;}*/
+  body{margin:30px; padding:0px;}
+  ul, li {list-style: none;margin:0; padding:0px;}
+  #wrap { width:388px;height:222px; border:1px solid black;font-family: 'Open Sans', sans-serif;vertical-align: top;}
+  
+  .title { vertical-align: top;margin:8px 15px 0px;width:100px;float: left;position: absolute;}
+  .year {font-size:8px;color:#999;display:inline-block;vertical-align: top;padding-top:7px;padding-right:5px;}
+  .month {font-size:25px;width:50px;display: inline-block;vertical-align: top;}
+  .month_eng {font-size: 4px;color:#999;display: inline-block;vertical-align: top;}
+  
+  .date {font-size:11px;clear: both;padding:10px;margin-top:35px;width:210px;float: left;}
+  .week {font-size:9px;height:15px}
+  td {text-align:center;width:30px;height:25px;}
+
+  .holiday {font-weight: bold;}
+  .gone {color:#999;}
+  .today {color: #fff;font-weight: bold;background-image:url('gray.jpg');background-repeat: no-repeat;background-position: center; }
+  .schedule {background-image:url('point.jpg');background-repeat: no-repeat;background-position: center 33px; }
+
+.day {float:right;width:105px;height:175px;vertical-align: top;font-size: 8px;margin:15px;border-left:1px solid #000;padding:10px;}
+.font_11 {font-size:11px;}
+.dayholiday {font-size: 8px;}
+.day ul {padding-top:10px;font-size: 4px;}
+.day ul li{ background-image:url('dayline.jpg');background-repeat: no-repeat;background-position: 30px 5px; padding-bottom:8px; text-align: }
+.text {font-size:5px;letter-spacing:-1px;padding-left:30px;}
+  </style>
+</head>
+<body>
+<div id="wrap">
+   <div class="title">
+    <span class="year">2014</span><span class="month">12</span>
+   </div>
+
+   <div class="date">
+   <table>
+      <tr>
+        <td class="week">Sun</td>
+        <td class="week">Mon</td>
+        <td class="week">Tue</td>
+        <td class="week">Wed</td>
+        <td class="week">Thu</td>
+        <td class="week">Fri</td>
+        <td class="week">Sat</td>
+      </tr>
+
+      <tr>
+        <td class="holiday gone">30</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+
+       <tr>
+        <td class="holiday">7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+      </tr>
+
+       <tr>
+        <td class="holiday">14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td class="schedule">18</td>
+        <td>19</td>
+        <td>20</td>
+      </tr>
+
+      <tr>
+        <td class="holiday">21</td>
+        <td class="schedule">22</td>
+        <td>23</td>
+        <td>24</td>
+        <td class="today">25</td>
+        <td>26</td>
+        <td>27</td>
+      </tr>
+
+      <tr>
+        <td class="holiday">28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td class="gone">1</td>
+        <td class="gone">2</td>
+        <td class="gone">3</td>
+      </tr>
+      
+    </table>
+    </div>
+    <div class="day">
+      <sapn class="font_11">25</span> <span class="gone">Thu</span><img src="moon2.jpg"><span class="dayholiday"> 크리스마스</span>
+      <ul>
+        <li>10:00
+          <div class="text">무중력 훈련
+            1단계 - 발구르기..</div>
+            </li>
+        <li>11:00</li>
+         <li>12:00</li>
+         <li>01:00</li>
+         <li>02:00</li>
+         <li>03:00</li>
+      </ul> 
+    </div>
+</div>
+</body>
+</html>
